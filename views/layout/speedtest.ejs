@@ -1,0 +1,17 @@
+<!-- views/speedtest.ejs -->
+<%- include("header") %>
+
+<div class="container my-4">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            <h2 class="text-center mb-4">Weather</h2>
+            <div id="speedtest-container">
+                <button id="start-speedtest" class="btn btn-primary">Check weather</button>
+                <div id="speedtest-result" class="mt-3"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include("footer") %>
+<script src="/public/speedtest.js"></script>
